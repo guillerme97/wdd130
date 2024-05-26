@@ -1,0 +1,101 @@
+body {
+    font-family: century gothic, sans-serif;
+    background-color: #babfd1ff;
+    color: #eee;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    color: #424874ff;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+fieldset {
+    border: 1px solid #404a5c;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+legend {
+    padding: 0 10px;
+    font-weight: bold;
+    color: #424874ff;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #000;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #414574;
+    color: #fff;
+}
+input[type="text"]{
+    margin-left: 10px;
+    width: 95%;
+}
+textarea {
+    margin-left: 10px;
+    width: 95%;
+    resize: vertical;
+}
+select {
+    margin-left: 10px;
+    width: 98%;
+}
+input[type="number"]{
+    margin-left: 10px;
+    width: 95%;
+}
+
+button {
+    display: block;
+    width: auto;
+    padding: 10px 100px;
+    background-color: #ff7b9cff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer {
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    margin-top: 20px;
+    color: #000;
+    font-size: 15px;
+}

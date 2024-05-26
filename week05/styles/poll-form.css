@@ -1,0 +1,89 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2a1b87;
+    font-size: 24px;
+}
+
+fieldset {
+    border: 1px solid #d3d3d3;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+legend {
+    padding: 0 10px;
+    font-weight: bold;
+    color: #2a1b87;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    /* width: calc(100% - 200px); */
+    padding: 8px;
+    margin-left: 10px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
+}
+
+input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #2a1b87;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #1e1271;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #999;
+    font-size: 12px;
+}

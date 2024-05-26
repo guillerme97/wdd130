@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/poll-form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="User Poll Form for WDD 130">
+    <meta name="author" content="Guillermo Mendoza">
+    <title>WDD 130 | HTML Form - User Poll</title>
+</head>
+<body>
+<div class="container">
+        <h1>WDD 130 | Guillermo Mendoza | HTML Form - User Poll</h1>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label>Full Name: <input type="text" name="fullname" required></label>
+                <label>Email: <input type="email" name="useremail" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">What is your favorite browser?</label>
+                    <select id="browser" name="browser">
+                        <option value="chrome">Chrome</option>
+                        <option value="firefox">Firefox</option>
+                        <option value="safari">Safari</option>
+                        <option value="edge">Edge</option>
+                        <option value="brave">Brave</option>
+                        <option value="other">Other</option>
+                    </select>
+                </label>
+                <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                <label for="feedback">List the places you have lived:</label>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
+            </fieldset>
+        </form>
+        <button type="submit">Submit Poll</button>
+    </main>
+    <footer>
+        <p>&copy;2024 | HTML Form - User Poll ACtivity | Guillermo Mendoza</p>
+    </footer>
+</body>
+</html>
