@@ -7,8 +7,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    
+    height: 100vh;   
 }
 
 .container {
@@ -16,7 +15,6 @@ body {
     width: 100%;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
@@ -29,14 +27,8 @@ h1 {
 fieldset {
     border: 1px solid #404a5c;
     padding: 20px;
-    margin-bottom: 20px;
     border-radius: 10px;
-}
-
-legend {
-    padding: 0 10px;
-    font-weight: bold;
-    color: #424874ff;
+    margin-bottom: 20px;
 }
 
 label {
@@ -46,11 +38,17 @@ label {
     color: #000;
 }
 
+legend {
+    padding: 0 10px;
+    font-weight: bold;
+    color: #424874ff;
+}
+
 input[type="text"],
 input[type="number"],
 textarea,
 select {
-    width: 100%;
+    width: 95%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #666;
@@ -58,23 +56,16 @@ select {
     font-size: 14px;
     background-color: #414574;
     color: #fff;
-}
-input[type="text"]{
     margin-left: 10px;
-    width: 95%;
 }
+
 textarea {
     margin-left: 10px;
-    width: 95%;
     resize: vertical;
 }
 select {
     margin-left: 10px;
-    width: 98%;
-}
-input[type="number"]{
-    margin-left: 10px;
-    width: 95%;
+    width: 100%;
 }
 
 button {
@@ -94,8 +85,7 @@ button {
 footer {
     display: flex;
     justify-content: left;
-    text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     color: #000;
     font-size: 15px;
 }
